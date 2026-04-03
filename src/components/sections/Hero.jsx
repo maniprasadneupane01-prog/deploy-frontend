@@ -40,7 +40,7 @@ export default function Hero() {
       <NewariPattern width="100%" height={60} className="absolute bottom-0 z-[3]" />
 
       <div className="absolute inset-0 z-[4] flex items-center">
-        <div className="w-full max-w-3xl mx-auto px-[var(--content-pad)]">
+        <div className="w-full max-w-3xl px-[var(--content-pad)]">
           <p className="hero-eyebrow font-sans font-medium text-[0.7rem] tracking-[0.15em] uppercase text-terra-400 mb-4">{t('hero.eyebrow')}</p>
           <h1 className="font-yeseva leading-[1.05] text-white mb-5" style={{ fontSize: 'clamp(3rem, 6vw, 5rem)' }}>
             {['hero.line1','hero.line2','hero.line3','hero.line4'].map((key) => (
