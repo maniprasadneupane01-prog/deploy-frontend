@@ -31,20 +31,20 @@ export default function BlogPost() {
   return (
     <PageTransition>
       <main id="main-content" className="pt-[var(--nav-height)]">
-        <article className="max-w-3xl mx-auto px-[var(--content-pad)] py-16">
-          <Link to="/blog" className="inline-flex items-center gap-2 font-sans text-sm text-terra-400 hover:text-terra-300 transition-colors mb-8">
+        <article className="max-w-3xl mx-auto px-[var(--content-pad)] py-8 sm:py-16">
+          <Link to="/blog" className="inline-flex items-center gap-2 font-sans text-sm text-terra-400 hover:text-terra-300 transition-colors mb-6 sm:mb-8">
             ← Back to Blog
           </Link>
 
-          <div className="aspect-[16/9] rounded-[var(--radius-xl)] overflow-hidden mb-10">
+          <div className="aspect-[16/9] rounded-[var(--radius-xl)] overflow-hidden mb-6 sm:mb-10">
             <img src={blogImages[gradIndex]} alt={post.title} className="w-full h-full object-cover" loading="lazy" />
           </div>
 
-          <span className="font-sans text-xs text-terra-400 bg-terra-500/10 px-3 py-1.5 rounded-full">{post.category}</span>
+          <span className="inline-block font-sans text-xs text-terra-400 bg-terra-500/10 px-3 py-1.5 rounded-full">{post.category}</span>
 
-          <h1 className="font-cormorant font-semibold mt-4 mb-6" style={{ fontSize: 'var(--fs-h1)', lineHeight: '1.15' }}>{post.title}</h1>
+          <h1 className="font-cormorant font-semibold mt-4 mb-4 sm:mb-6" style={{ fontSize: 'var(--fs-h1)', lineHeight: '1.15' }}>{post.title}</h1>
 
-          <div className="flex flex-wrap items-center gap-4 font-sans text-sm text-[var(--text-muted)] mb-12 pb-8 border-b border-[var(--border-subtle)]">
+          <div className="flex flex-wrap items-center gap-3 sm:gap-4 font-sans text-xs sm:text-sm text-[var(--text-muted)] mb-8 sm:mb-12 pb-6 sm:pb-8 border-b border-[var(--border-subtle)]">
             <span>{post.author}</span>
             <span className="w-1 h-1 rounded-full bg-[var(--text-muted)]" />
             <span>{post.date}</span>
@@ -52,17 +52,17 @@ export default function BlogPost() {
             <span>{post.readTime}</span>
           </div>
 
-          <div className="font-sans text-[var(--text-secondary)] leading-relaxed space-y-6" style={{ fontSize: 'var(--fs-body-lg)' }}>
+          <div className="font-sans text-[var(--text-secondary)] leading-relaxed space-y-5 sm:space-y-6" style={{ fontSize: 'var(--fs-body-lg)' }}>
             {post.content.map((block, i) =>
               block.type === 'heading' ? (
-                <h2 key={i} className="font-cormorant font-semibold text-[var(--text-primary)] mt-10 mb-4" style={{ fontSize: 'var(--fs-h3)' }}>{block.text}</h2>
+                <h2 key={i} className="font-cormorant font-semibold text-[var(--text-primary)] mt-8 sm:mt-10 mb-3 sm:mb-4" style={{ fontSize: 'var(--fs-h3)' }}>{block.text}</h2>
               ) : (
                 <p key={i}>{block.text}</p>
               )
             )}
           </div>
 
-          <div className="mt-16 pt-8 border-t border-[var(--border-subtle)]">
+          <div className="mt-12 sm:mt-16 pt-6 sm:pt-8 border-t border-[var(--border-subtle)]">
             <Link to="/blog" className="inline-flex items-center gap-2 font-sans text-terra-400 hover:text-terra-300 transition-colors">← Back to Blog</Link>
           </div>
         </article>
