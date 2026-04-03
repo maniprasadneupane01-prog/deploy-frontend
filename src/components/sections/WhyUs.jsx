@@ -11,6 +11,7 @@ export default function WhyUs() {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    if (window.innerWidth < 768) return;
     const panels = t('whyUs.panels', { returnObjects: true });
     const ctx = gsap.context(() => {
       ScrollTrigger.create({
@@ -41,10 +42,10 @@ export default function WhyUs() {
               <div key={i} className={`w-4 h-4 rounded-full transition-all duration-500 ${i <= activePanel ? 'bg-terra-500 scale-110' : 'bg-[var(--border-default)]'}`} />
             ))}
           </div>
-          <div className="relative min-h-[300px]">
+          <div className="relative min-h-[200px] lg:min-h-[300px]">
             {panels.map((panel, i) => (
               <div key={i} className={`transition-all duration-700 ${i === activePanel ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8 absolute inset-0 pointer-events-none'}`}>
-                <span className="font-yeseva text-[8rem] leading-none text-terra-500/[0.04] absolute -top-8 -left-4">{panel.number}</span>
+                <span className="font-yeseva text-[4rem] md:text-[6rem] lg:text-[8rem] leading-none text-terra-500/[0.04] absolute -top-8 -left-4">{panel.number}</span>
                 <h3 className="font-cormorant font-semibold relative z-10 mb-4" style={{ fontSize: 'var(--fs-h3)' }}>{panel.title}</h3>
                 <p className="font-sans text-[var(--text-secondary)] leading-relaxed max-w-xl">{panel.desc}</p>
               </div>

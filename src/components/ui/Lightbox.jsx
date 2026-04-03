@@ -28,7 +28,7 @@ export default function Lightbox({ images, currentIndex, onClose, onPrev, onNext
           onClick={e => e.stopPropagation()}
         >
           <div className="w-full h-full" style={{ background: images[currentIndex] }} />
-          <button onClick={onClose} className="absolute top-4 right-4 w-10 h-10 flex items-center justify-center rounded-full bg-black/50 text-white hover:bg-black/70 transition-colors" aria-label="Close">✕</button>
+          <button onClick={onClose} className="absolute top-4 right-4 w-11 h-11 flex items-center justify-center rounded-full bg-black/50 text-white hover:bg-black/70 transition-colors" aria-label="Close">✕</button>
           <button onClick={onPrev} className="absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center rounded-full bg-black/50 text-white hover:bg-black/70 transition-colors" aria-label="Previous">←</button>
           <button onClick={onNext} className="absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center rounded-full bg-black/50 text-white hover:bg-black/70 transition-colors" aria-label="Next">→</button>
         </motion.div>

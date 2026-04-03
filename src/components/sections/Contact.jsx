@@ -45,7 +45,7 @@ export default function Contact() {
         <h2 className="font-cormorant font-semibold mb-12 text-center" style={{ fontSize: 'var(--fs-h2)' }}>{t('contact.title')}</h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
-            <div className="relative w-full h-[350px] rounded-[var(--radius-lg)] overflow-hidden border border-[var(--border-subtle)]">
+            <div className="relative w-full h-[250px] md:h-[350px] rounded-[var(--radius-lg)] overflow-hidden border border-[var(--border-subtle)]">
               <iframe
                 title="Biraj Dental Location"
                 loading="lazy"

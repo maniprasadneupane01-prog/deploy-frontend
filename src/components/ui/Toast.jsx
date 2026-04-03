@@ -30,7 +30,7 @@ export default function ToastContainer() {
   };
 
   return (
-    <div className="fixed top-4 right-4 z-[500] flex flex-col gap-3 max-w-sm" aria-live="polite">
+    <div className="fixed top-4 right-4 left-4 z-[500] flex flex-col gap-3 sm:left-auto sm:max-w-sm" aria-live="polite">
       {toasts.map(t => (
         <div key={t.id} className={`px-5 py-3.5 rounded-lg border backdrop-blur-sm text-sm animate-fade-down ${colors[t.type] || colors.error}`}>
           {t.message}

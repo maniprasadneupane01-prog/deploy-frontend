@@ -21,7 +21,7 @@ export default function About() {
 
   return (
     <section ref={sectionRef} className="section">
-      <div className="max-w-[var(--max-width)] mx-auto px-[var(--content-pad)] grid grid-cols-1 lg:grid-cols-[55%_45%] gap-12 lg:gap-16 items-center">
+      <div className="max-w-[var(--max-width)] mx-auto px-[var(--content-pad)] grid grid-cols-1 lg:grid-cols-[55%_45%] gap-8 lg:gap-16 items-center">
         <div ref={leftRef}>
           <p className="font-sans font-medium text-sm tracking-[0.15em] uppercase text-terra-400 mb-3">{t('about.sectionLabel')}</p>
           <h2 className="font-cormorant font-semibold whitespace-pre-line mb-6" style={{ fontSize: 'var(--fs-h2)' }}>{t('about.title')}</h2>
@@ -41,7 +41,7 @@ export default function About() {
           </div>
         </div>
         <div className="flex justify-center">
-          <svg width="380" height="480" viewBox="0 0 380 480" fill="none" className="animate-float-y" aria-hidden="true">
+          <svg width="380" height="480" viewBox="0 0 380 480" fill="none" className="max-w-full h-auto animate-float-y" aria-hidden="true">
             <rect x="10" y="10" width="360" height="460" rx="8" stroke="var(--terra-500)" strokeWidth="1.5" opacity="0.3" />
             <rect x="30" y="30" width="320" height="420" rx="4" stroke="var(--terra-500)" strokeWidth="1" opacity="0.2" />
             {[[30,30],[350,30],[30,450],[350,450]].map(([x,y],i) => <path key={i} d={`M${x} ${y} L${x+(x<100?20:-20)} ${y} L${x+(x<100?20:-20)} ${y+(y<100?20:-20)}`} stroke="var(--terra-400)" strokeWidth="1.5" fill="none" opacity="0.4" />)}

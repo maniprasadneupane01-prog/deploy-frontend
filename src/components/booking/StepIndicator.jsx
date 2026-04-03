@@ -24,7 +24,7 @@ export default function StepIndicator({ currentStep }) {
               <span className="text-[0.65rem] font-sans mt-1.5 text-[var(--text-muted)]">{s.label}</span>
             </div>
             {i < steps.length - 1 && (
-              <div className={`w-12 h-0.5 mx-2 mb-5 transition-all duration-500 ${num < currentStep ? 'bg-terra-500' : 'bg-[var(--border-default)]'}`} />
+              <div className={`w-6 md:w-12 h-0.5 mx-1 md:mx-2 mb-5 transition-all duration-500 ${num < currentStep ? 'bg-terra-500' : 'bg-[var(--border-default)]'}`} />
             )}
           </div>
         );

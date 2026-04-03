@@ -15,9 +15,9 @@ export default function Team() {
       <div className="max-w-[var(--max-width)] mx-auto px-[var(--content-pad)]">
         <p className="font-sans font-medium text-sm tracking-[0.15em] uppercase text-terra-400 mb-3">{t('team.sectionLabel')}</p>
         <h2 className="font-cormorant font-semibold mb-12" style={{ fontSize: 'var(--fs-h2)' }}>{t('team.title')}</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
           {members.map((m, i) => (
-            <div key={i} className="flip-card w-[320px] h-[400px]" style={{ perspective: '1200px' }}>
+            <div key={i} className="flip-card w-full max-w-[320px] h-[350px] md:h-[400px]" style={{ perspective: '1200px' }}>
               <div className="flip-inner relative w-full h-full transition-transform duration-[650ms]" style={{ transformStyle: 'preserve-3d' }}>
                 <div className="flip-front absolute inset-0 rounded-[var(--radius-xl)] overflow-hidden bg-[var(--bg-card)] border border-[var(--border-subtle)]" style={{ backfaceVisibility: 'hidden' }}>
                   <div className="h-[60%] flex items-center justify-center relative" style={{ background: avatarGrads[i] }}>

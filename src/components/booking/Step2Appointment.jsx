@@ -58,7 +58,7 @@ export default function Step2Appointment({ form, t, selectedService }) {
       <div className="space-y-5">
         <div>
           <label className="block text-sm font-medium text-[var(--text-secondary)] mb-2">{t('booking.step2.serviceLabel')}</label>
-          <div className="grid grid-cols-2 gap-2">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
             {iconKeys.map((key, i) => {
               const Icon = iconMap[key];
               const isSelected = a.service === serviceNames[i];

@@ -24,7 +24,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-[var(--grad-footer)] border-t border-[var(--border-subtle)]">
-      <div className="max-w-[var(--max-width)] mx-auto px-[var(--content-pad)] py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div className="max-w-[var(--max-width)] mx-auto px-[var(--content-pad)] py-10 md:py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         <div>
           <h3 className="font-yeseva text-2xl text-white mb-3">Biraj Dental</h3>
           <p className="text-[var(--text-secondary)] text-sm mb-5 italic">"{t('footer.tagline')}"</p>

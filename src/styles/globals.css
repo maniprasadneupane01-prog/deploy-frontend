@@ -122,8 +122,8 @@
   /* ── LAYOUT ──────────────────────────────────────────── */
   --max-width:    1380px;
   --content-pad:  clamp(1.25rem, 5vw, 5rem);
-  --section-pad-y: clamp(5rem, 10vw, 10rem);
-  --nav-height:   72px;
+  --section-pad-y: clamp(3rem, 8vw, 10rem);
+  --nav-height:   clamp(60px, 10vw, 72px);
 
   /* ── Z-INDEX SCALE ───────────────────────────────────── */
   --z-below:      -1;
@@ -137,14 +137,14 @@
   --z-cursor:     9999;
 
   /* ── TYPE SCALE ──────────────────────────────────────── */
-  --fs-display: clamp(4.5rem, 10vw, 10rem);
-  --fs-hero:    clamp(3rem, 7vw, 7.5rem);
-  --fs-h1:      clamp(2.5rem, 5vw, 5rem);
-  --fs-h2:      clamp(2rem, 3.5vw, 3.5rem);
-  --fs-h3:      clamp(1.5rem, 2.5vw, 2.25rem);
-  --fs-h4:      clamp(1.2rem, 2vw, 1.6rem);
-  --fs-body-lg: clamp(1.05rem, 1.3vw, 1.2rem);
-  --fs-body:    clamp(0.95rem, 1.1vw, 1.05rem);
+  --fs-display: clamp(2.5rem, 10vw, 10rem);
+  --fs-hero:    clamp(2rem, 7vw, 7.5rem);
+  --fs-h1:      clamp(1.75rem, 6vw, 5rem);
+  --fs-h2:      clamp(1.5rem, 5vw, 3.5rem);
+  --fs-h3:      clamp(1.25rem, 3vw, 2.25rem);
+  --fs-h4:      clamp(1.1rem, 2.5vw, 1.6rem);
+  --fs-body-lg: clamp(1rem, 1.5vw, 1.2rem);
+  --fs-body:    clamp(0.9rem, 1.2vw, 1.05rem);
   --fs-small:   0.875rem;
   --fs-xs:      0.75rem;
   --fs-mono:    0.85rem;

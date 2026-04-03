@@ -25,16 +25,16 @@ export default function Gallery() {
       <div className="max-w-[var(--max-width)] mx-auto px-[var(--content-pad)]">
         <p className="font-sans font-medium text-sm tracking-[0.15em] uppercase text-terra-400 mb-3">{t('gallery.sectionLabel')}</p>
         <h2 className="font-cormorant font-semibold mb-12" style={{ fontSize: 'var(--fs-h2)' }}>{t('gallery.title')}</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4" style={{ gridTemplateAreas: '"big mid1 sm1" "big mid2 sm2" "bot1 bot2 sm3"' }}>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {[
-            { area: 'big', grad: gradients[0], span: 'row-span-2 aspect-[4/5]' },
+            { area: 'big', grad: gradients[0], span: 'md:row-span-2 aspect-[4/5] md:aspect-auto' },
             { area: 'mid1', grad: gradients[1], span: 'aspect-[4/3]' },
             { area: 'sm1', grad: gradients[2], span: 'aspect-square' },
             { area: 'mid2', grad: gradients[3], span: 'aspect-[4/3]' },
             { area: 'sm2', grad: gradients[4], span: 'aspect-square' },
-            { area: 'bot1', grad: gradients[5], span: 'aspect-[16/9]' },
+            { area: 'bot1', grad: gradients[5], span: 'md:col-span-2 aspect-[16/9]' },
           ].map((tile, i) => (
-            <div key={i} className={`relative overflow-hidden rounded-[var(--radius-lg)] cursor-pointer group ${tile.span}`} style={{ gridArea: tile.area }} onClick={() => openLightbox(i)}>
+            <div key={i} className={`relative overflow-hidden rounded-[var(--radius-lg)] cursor-pointer group ${tile.span}`} onClick={() => openLightbox(i)}>
               <div className="absolute inset-0 transition-transform duration-300 group-hover:scale-[1.03]" style={{ background: tile.grad }} />
               <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-[2]">
                 <p className="font-sans text-xs sm:text-sm text-white/40 text-center px-4 leading-relaxed select-none">Your dental photos will appear here after you approve this project.</p>

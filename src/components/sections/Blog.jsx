@@ -16,7 +16,7 @@ export default function Blog() {
       <div className="max-w-[var(--max-width)] mx-auto px-[var(--content-pad)]">
         <p className="font-sans font-medium text-sm tracking-[0.15em] uppercase text-terra-400 mb-3">{t('blog.sectionLabel')}</p>
         <h2 className="font-cormorant font-semibold mb-12" style={{ fontSize: 'var(--fs-h2)' }}>{t('blog.title')}</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {posts.map((post, i) => (
             <Link key={i} to={`/blog/${post.slug}`} className="group rounded-[var(--radius-xl)] overflow-hidden bg-[var(--bg-card)] border border-[var(--border-subtle)] hover:shadow-lg transition-all duration-300">
               <div className="aspect-[16/9] overflow-hidden">

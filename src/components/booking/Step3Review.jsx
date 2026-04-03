@@ -22,9 +22,9 @@ export default function Step3Review({ form, t }) {
       <div className="rounded-lg border border-[var(--border-default)] overflow-hidden mb-6">
         <h4 className="px-4 py-3 bg-[var(--bg-section-alt)] font-sans font-semibold text-sm">{t('booking.step3.summaryTitle')}</h4>
         {rows.map(([label, value], i) => (
-          <div key={i} className={`flex justify-between px-4 py-2.5 text-sm ${i % 2 === 0 ? 'bg-[var(--bg-card)]' : 'bg-[var(--bg-section-alt)]'}`}>
+          <div key={i} className={`flex flex-col sm:flex-row sm:justify-between px-4 py-2.5 text-sm gap-1 ${i % 2 === 0 ? 'bg-[var(--bg-card)]' : 'bg-[var(--bg-section-alt)]'}`}>
             <span className="font-sans font-medium text-[var(--text-muted)] text-xs uppercase">{label}</span>
-            <span className="font-sans text-right">{value}</span>
+            <span className="font-sans sm:text-right break-words">{value}</span>
           </div>
         ))}
       </div>
