@@ -55,9 +55,9 @@ export default function Footer() {
         <div>
           <h4 className="font-sans font-semibold text-sm text-[var(--text-primary)] mb-4 uppercase tracking-wider">{t('footer.contactInfo')}</h4>
           <div className="space-y-3 text-sm text-[var(--text-secondary)]">
-            <p>📍 Ga:Pali, Suryabinayak, Bhaktapur</p>
-            <p>📞 +977 985-1075694</p>
-            <p>☎️ 01-6613106</p>
+            <p>📍 Gathaghar Chowk (Main Branch), Bhaktapur, Nepal</p>
+            <p>📞 9851031257</p>
+            <p>☎️ 01-16634729</p>
             <p>✉️ mainalibr@gmail.com</p>
           </div>
           <h4 className="font-sans font-semibold text-sm text-[var(--text-primary)] mt-6 mb-3 uppercase tracking-wider">{t('footer.hours')}</h4>

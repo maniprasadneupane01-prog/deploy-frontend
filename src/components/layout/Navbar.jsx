@@ -50,10 +50,10 @@ export default function Navbar() {
     >
       <div className="max-w-[var(--max-width)] mx-auto px-[var(--content-pad)] h-full flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2.5 hover:scale-[1.05] transition-transform">
-          <LogoIcon size={32} color="var(--terra-400)" />
+          <img src="/logo.jpg" alt="Biraj Dental" className="w-9 h-9 rounded-full object-cover" />
           <div>
             <span className="font-yeseva text-xl text-white leading-none block">Biraj Dental</span>
-            <span className="font-sans font-light text-[0.65rem] text-[var(--text-muted)] tracking-wide">Bhaktapur</span>
+            <span className="font-sans font-light text-[0.65rem] text-[var(--text-muted)] tracking-wide">Pvt. Ltd.</span>
           </div>
         </Link>
 

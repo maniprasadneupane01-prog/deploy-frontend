@@ -16,15 +16,15 @@ export function generateAppointmentPDF(appointment) {
   doc.setFont('helvetica', 'bold');
   doc.setFontSize(20);
   doc.setTextColor(...WHITE);
-  doc.text('Biraj Dental Hospital Pvt. Ltd.', W/2, 16, { align: 'center' });
+  doc.text('Biraj Dental Pvt. Ltd.', W/2, 16, { align: 'center' });
   doc.setFont('helvetica', 'normal');
   doc.setFontSize(10);
-  doc.text('बिराज डेण्टल हस्पितल प्रा. लि.', W/2, 24, { align: 'center' });
+  doc.text('बिराज डेण्टल प्रा. लि.', W/2, 24, { align: 'center' });
   doc.setFontSize(9);
-  doc.text('Suryabinayak & Gatthaghar, Bhaktapur  |  +977 985-1075694  |  mainalibr@gmail.com', W/2, 33, { align: 'center' });
+  doc.text('Gathaghar Chowk, Bhaktapur  |  9851031257  |  mainalibr@gmail.com', W/2, 33, { align: 'center' });
   doc.setFontSize(8);
   doc.setTextColor(255, 220, 180);
-  doc.text('"Transforming smiles, one visit at a time."', W/2, 41, { align: 'center' });
+  doc.text('"Your Smile is Important to Us."', W/2, 41, { align: 'center' });
 
   doc.setTextColor(...DARK);
   doc.setFont('helvetica', 'bold');
@@ -103,7 +103,7 @@ export function generateAppointmentPDF(appointment) {
   doc.setTextColor(...DARK);
   doc.text('- Please arrive at least 10 minutes before your appointment time.', 20, y+14);
   doc.text('- Bring a valid government-issued ID (citizenship, passport, or license).', 20, y+20);
-  doc.text('- To reschedule or cancel: call +977 985-1075694 at least 24 hours ahead.', 20, y+26);
+  doc.text('- To reschedule or cancel: call 9851031257 at least 24 hours ahead.', 20, y+26);
 
   doc.setDrawColor(210, 195, 175);
   doc.setLineWidth(0.3);
@@ -111,8 +111,8 @@ export function generateAppointmentPDF(appointment) {
   doc.setFont('helvetica', 'normal');
   doc.setFontSize(8);
   doc.setTextColor(...MUTED);
-  doc.text('Ga:Pali, Suryabinayak, Bhaktapur, Nepal', W/2, H-16, { align: 'center' });
-  doc.text('Phone: +977 985-1075694  |  Email: mainalibr@gmail.com  |  birajdental.com.np', W/2, H-11, { align: 'center' });
+  doc.text('Gathaghar Chowk, Bhaktapur, Nepal', W/2, H-16, { align: 'center' });
+  doc.text('Phone: 9851031257  |  Email: mainalibr@gmail.com  |  birajdental.com.np', W/2, H-11, { align: 'center' });
 
   doc.setTextColor(240, 232, 220);
   doc.setFontSize(68);

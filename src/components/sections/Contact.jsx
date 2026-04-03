@@ -50,19 +50,47 @@ export default function Contact() {
                 title="Biraj Dental Location"
                 loading="lazy"
                 className="w-full h-full"
-                src="https://maps.google.com/maps?q=Ga:Pali,%20Suryabinayak,%20Bhaktapur,%20Nepal&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?q=Gathaghar+Chowk,+Bhaktapur,+Nepal&t=&z=15&ie=UTF8&iwloc=&output=embed"
               />
             </div>
-            <div className="mt-6 space-y-4">
-              <div className="p-5 rounded-lg bg-[var(--bg-card)] border border-[var(--border-subtle)] border-l-4 border-l-terra-500">
-                <p className="font-sans font-semibold text-terra-400 mb-1">📍 Suryabinayak (Main)</p>
-                <p className="font-sans text-sm text-[var(--text-secondary)]">Ga:Pali, Suryabinayak Municipality, Ward 8, Bhaktapur</p>
-                <p className="font-sans text-sm text-[var(--text-muted)] mt-1">+977 985-1075694 | 01-6613106</p>
+            <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              <div className="p-5 rounded-lg bg-[var(--bg-card)] border-2 border-terra-500 border-l-4 border-l-terra-500 relative">
+                <span className="absolute top-2 right-2 bg-terra-500 text-white text-[0.6rem] font-semibold px-2 py-0.5 rounded-full uppercase tracking-wide">Main Branch</span>
+                <p className="font-sans font-semibold text-terra-400 mb-1">📍 Gathaghar, Namunabasti</p>
+                <p className="font-sans text-sm text-[var(--text-secondary)]">Gathaghar Chowk, Bhaktapur</p>
+                <p className="font-sans text-sm text-[var(--text-muted)] mt-1">01-16634729 / 9851031257</p>
               </div>
               <div className="p-5 rounded-lg bg-[var(--bg-card)] border border-[var(--border-subtle)] border-l-4 border-l-terra-500">
-                <p className="font-sans font-semibold text-terra-400 mb-1">📍 Gatthaghar (Branch)</p>
-                <p className="font-sans text-sm text-[var(--text-secondary)]">Gatthaghar Namuna Basti, Chandra Binayek Chowk, Bhaktapur</p>
-                <p className="font-sans text-sm text-[var(--text-muted)] mt-1">mainalibr@gmail.com</p>
+                <p className="font-sans font-semibold text-terra-400 mb-1">📍 Jorpati, Narayantar</p>
+                <p className="font-sans text-sm text-[var(--text-secondary)]">Kathmandu</p>
+              </div>
+              <div className="p-5 rounded-lg bg-[var(--bg-card)] border border-[var(--border-subtle)] border-l-4 border-l-terra-500">
+                <p className="font-sans font-semibold text-terra-400 mb-1">📍 Sallaghari</p>
+                <p className="font-sans text-sm text-[var(--text-secondary)]">Bhaktapur</p>
+              </div>
+              <div className="p-5 rounded-lg bg-[var(--bg-card)] border border-[var(--border-subtle)] border-l-4 border-l-terra-500">
+                <p className="font-sans font-semibold text-terra-400 mb-1">📍 Chabahil, Ganeshthan</p>
+                <p className="font-sans text-sm text-[var(--text-secondary)]">Kathmandu</p>
+              </div>
+              <div className="p-5 rounded-lg bg-[var(--bg-card)] border border-[var(--border-subtle)] border-l-4 border-l-terra-500">
+                <p className="font-sans font-semibold text-terra-400 mb-1">📍 Suryabinayak</p>
+                <p className="font-sans text-sm text-[var(--text-secondary)]">Bhaktapur</p>
+              </div>
+              <div className="p-5 rounded-lg bg-[var(--bg-card)] border border-[var(--border-subtle)] border-l-4 border-l-terra-500">
+                <p className="font-sans font-semibold text-terra-400 mb-1">📍 Charikot</p>
+                <p className="font-sans text-sm text-[var(--text-secondary)]">Dolakha</p>
+              </div>
+              <div className="p-5 rounded-lg bg-[var(--bg-card)] border border-[var(--border-subtle)] border-l-4 border-l-terra-500">
+                <p className="font-sans font-semibold text-terra-400 mb-1">📍 Chautara</p>
+                <p className="font-sans text-sm text-[var(--text-secondary)]">Sindhupalchowk</p>
+              </div>
+              <div className="p-5 rounded-lg bg-[var(--bg-card)] border border-[var(--border-subtle)] border-l-4 border-l-terra-500">
+                <p className="font-sans font-semibold text-terra-400 mb-1">📍 Banepa</p>
+                <p className="font-sans text-sm text-[var(--text-secondary)]">Kavre</p>
+              </div>
+              <div className="p-5 rounded-lg bg-[var(--bg-card)]/50 border border-dashed border-[var(--border-subtle)] opacity-50">
+                <p className="font-sans font-semibold text-[var(--text-muted)] mb-1">📍 Coming Soon</p>
+                <p className="font-sans text-sm text-[var(--text-disabled)]">Location to be added</p>
               </div>
             </div>
           </div>

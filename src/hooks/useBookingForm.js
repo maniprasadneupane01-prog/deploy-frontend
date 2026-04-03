@@ -74,9 +74,9 @@ export function useBookingForm(onSuccess, onError) {
         onError?.(msgs.join('. '));
       } else if (status === 429) onError?.('Too many requests. Please wait a minute.');
       else if (status === 500 || !status) {
-        onError?.('Could not reach the server. Please call +977 985-1075694 to book by phone.');
+        onError?.('Could not reach the server. Please call 9851031257 to book by phone.');
       } else {
-        onError?.('Server error. Please call +977 985-1075694.');
+        onError?.('Server error. Please call 9851031257.');
       }
     } finally {
       setIsSubmitting(false);

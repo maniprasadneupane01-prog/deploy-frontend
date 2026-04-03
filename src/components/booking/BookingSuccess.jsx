@@ -52,7 +52,7 @@ export default function BookingSuccess({ response, form, closePanel }) {
         <Button variant="primary" className="w-full" onClick={downloadPDF}>↓ {t('booking.success.download')}</Button>
         <Button variant="ghost" className="w-full" onClick={bookAnother}>+ {t('booking.success.bookAnother')}</Button>
       </div>
-      <p className="mt-6 text-xs text-[var(--text-muted)]">{t('booking.success.urgent')}<br /><a href="tel:+9779851075694" className="font-mono text-terra-400">{t('booking.success.phone')}</a></p>
+      <p className="mt-6 text-xs text-[var(--text-muted)]">{t('booking.success.urgent')}<br /><a href="tel:+9779851031257" className="font-mono text-terra-400">{t('booking.success.phone')}</a></p>
     </div>
   );
 }
