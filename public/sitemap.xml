@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://birajdental.com.np/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://birajdental.com.np/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://birajdental.com.np/?lang=ne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://birajdental.com.np/"/>
+  </url>
+  <url>
+    <loc>https://birajdental.com.np/services</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://birajdental.com.np/services"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://birajdental.com.np/services?lang=ne"/>
+  </url>
+  <url>
+    <loc>https://birajdental.com.np/gallery</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://birajdental.com.np/gallery"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://birajdental.com.np/gallery?lang=ne"/>
+  </url>
+  <url>
+    <loc>https://birajdental.com.np/blog</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://birajdental.com.np/blog"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://birajdental.com.np/blog?lang=ne"/>
+  </url>
+</urlset>

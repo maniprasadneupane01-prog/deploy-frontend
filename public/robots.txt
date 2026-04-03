@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://birajdental.com.np/sitemap.xml

@@ -1,0 +1,273 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ═══════════════════════════════════════════════════════
+   ALL CSS CUSTOM PROPERTIES — BIRAJ DENTAL DESIGN SYSTEM
+   ═══════════════════════════════════════════════════════ */
+
+:root {
+  /* ── BRAND CORE ─────────────────────────────────────── */
+  --terra-100:   #FDF0EB;
+  --terra-200:   #F6D0C0;
+  --terra-300:   #E8A080;
+  --terra-400:   #D4714A;
+  --terra-500:   #C0522A;
+  --terra-600:   #A03E1C;
+  --terra-700:   #7D2E11;
+  --terra-800:   #5A1F08;
+  --terra-900:   #3A1105;
+
+  --gold-100:    #FEF9EC;
+  --gold-200:    #FAE8A8;
+  --gold-300:    #F5D468;
+  --gold-400:    #E8B83A;
+  --gold-500:    #D4A017;
+  --gold-600:    #A87C10;
+  --gold-700:    #7C5A08;
+
+  --ink-100:     #3D2B14;
+  --ink-200:     #2C1F10;
+  --ink-300:     #1F1509;
+  --ink-400:     #1A1008;
+  --ink-500:     #120B05;
+
+  /* ── SEMANTIC TOKENS ─────────────────────────────────── */
+  --bg-page:        var(--ink-400);
+  --bg-section-alt: var(--ink-200);
+  --bg-card:        var(--ink-100);
+  --bg-elevated:    #4A3520;
+
+  --text-primary:   #FBF7F0;
+  --text-secondary: #C9B99A;
+  --text-muted:     #8B7B6B;
+  --text-disabled:  #5A4A3A;
+
+  --border-subtle:  rgba(201, 185, 154, 0.12);
+  --border-default: rgba(201, 185, 154, 0.25);
+  --border-strong:  rgba(192, 82, 42, 0.50);
+  --border-brand:   rgba(192, 82, 42, 0.80);
+
+  /* ── ACCENT SEMANTIC ─────────────────────────────────── */
+  --success:     #22C55E;
+  --success-bg:  rgba(34, 197, 94, 0.10);
+  --warning:     #F59E0B;
+  --warning-bg:  rgba(245, 158, 11, 0.10);
+  --error:       #EF4444;
+  --error-bg:    rgba(239, 68, 68, 0.10);
+  --info:        #3B82F6;
+  --info-bg:     rgba(59, 130, 246, 0.10);
+
+  /* ── GRADIENTS ───────────────────────────────────────── */
+  --grad-brand:     linear-gradient(135deg, var(--terra-500) 0%, var(--gold-500) 100%);
+  --grad-brand-v:   linear-gradient(180deg, var(--terra-500) 0%, var(--gold-500) 100%);
+  --grad-hero:      linear-gradient(160deg, #1A1008 0%, #2C1209 35%, #1A1008 70%, #0D0805 100%);
+  --grad-card:      linear-gradient(145deg, rgba(192,82,42,0.06) 0%, rgba(212,160,23,0.04) 100%);
+  --grad-glass:     linear-gradient(135deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.01) 100%);
+  --grad-shine:     linear-gradient(105deg, transparent 40%, rgba(255,255,255,0.08) 50%, transparent 60%);
+  --grad-radial:    radial-gradient(ellipse at 50% 0%, rgba(192,82,42,0.15) 0%, transparent 70%);
+  --grad-footer:    linear-gradient(180deg, var(--ink-200) 0%, var(--ink-500) 100%);
+  --grad-text:      linear-gradient(135deg, var(--terra-400) 0%, var(--gold-400) 100%);
+
+  /* ── SHADOWS ─────────────────────────────────────────── */
+  --shadow-xs:       0 1px 3px rgba(26,16,8,0.20);
+  --shadow-sm:       0 2px 8px rgba(26,16,8,0.25), 0 1px 3px rgba(26,16,8,0.15);
+  --shadow-md:       0 8px 24px rgba(26,16,8,0.30), 0 2px 8px rgba(26,16,8,0.20);
+  --shadow-lg:       0 20px 60px rgba(26,16,8,0.40), 0 8px 20px rgba(26,16,8,0.25);
+  --shadow-xl:       0 40px 80px rgba(26,16,8,0.50), 0 15px 35px rgba(26,16,8,0.30);
+  --shadow-brand:    0 8px 30px rgba(192,82,42,0.35), 0 2px 8px rgba(192,82,42,0.20);
+  --shadow-brand-lg: 0 20px 60px rgba(192,82,42,0.40), 0 8px 20px rgba(192,82,42,0.25);
+  --shadow-gold:     0 8px 30px rgba(212,160,23,0.30), 0 2px 8px rgba(212,160,23,0.15);
+  --shadow-inset:    inset 0 1px 0 rgba(255,255,255,0.06), inset 0 -1px 0 rgba(0,0,0,0.12);
+
+  /* ── SPACING SCALE ───────────────────────────────────── */
+  --space-1:  0.25rem;
+  --space-2:  0.5rem;
+  --space-3:  0.75rem;
+  --space-4:  1rem;
+  --space-5:  1.25rem;
+  --space-6:  1.5rem;
+  --space-8:  2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+
+  /* ── BORDER RADII ────────────────────────────────────── */
+  --radius-sm:   6px;
+  --radius-md:   12px;
+  --radius-lg:   20px;
+  --radius-xl:   28px;
+  --radius-2xl:  40px;
+  --radius-full: 9999px;
+
+  /* ── MOTION TOKENS ───────────────────────────────────── */
+  --ease-out-expo:    cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-expo:     cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out-expo: cubic-bezier(0.87, 0, 0.13, 1);
+  --ease-spring:      cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-bounce:      cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  --ease-smooth:      cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-sharp:       cubic-bezier(0.4, 0, 0.6, 1);
+
+  --dur-instant:  80ms;
+  --dur-fast:     160ms;
+  --dur-normal:   280ms;
+  --dur-slow:     480ms;
+  --dur-xslow:    720ms;
+  --dur-crawl:    1200ms;
+
+  /* ── LAYOUT ──────────────────────────────────────────── */
+  --max-width:    1380px;
+  --content-pad:  clamp(1.25rem, 5vw, 5rem);
+  --section-pad-y: clamp(5rem, 10vw, 10rem);
+  --nav-height:   72px;
+
+  /* ── Z-INDEX SCALE ───────────────────────────────────── */
+  --z-below:      -1;
+  --z-base:        0;
+  --z-raised:     10;
+  --z-dropdown:   100;
+  --z-sticky:     200;
+  --z-overlay:    300;
+  --z-modal:      400;
+  --z-toast:      500;
+  --z-cursor:     9999;
+
+  /* ── TYPE SCALE ──────────────────────────────────────── */
+  --fs-display: clamp(4.5rem, 10vw, 10rem);
+  --fs-hero:    clamp(3rem, 7vw, 7.5rem);
+  --fs-h1:      clamp(2.5rem, 5vw, 5rem);
+  --fs-h2:      clamp(2rem, 3.5vw, 3.5rem);
+  --fs-h3:      clamp(1.5rem, 2.5vw, 2.25rem);
+  --fs-h4:      clamp(1.2rem, 2vw, 1.6rem);
+  --fs-body-lg: clamp(1.05rem, 1.3vw, 1.2rem);
+  --fs-body:    clamp(0.95rem, 1.1vw, 1.05rem);
+  --fs-small:   0.875rem;
+  --fs-xs:      0.75rem;
+  --fs-mono:    0.85rem;
+}
+
+/* ─── LIGHT MODE OVERRIDES ─────────────────────────────── */
+[data-theme="light"] {
+  --bg-page:        #FBF7F0;
+  --bg-section-alt: #F4EDE1;
+  --bg-card:        #FFFFFF;
+  --bg-elevated:    #FFFFFF;
+  --text-primary:   #1A1008;
+  --text-secondary: #5A3E20;
+  --text-muted:     #8B7B6B;
+  --text-disabled:  #C9B99A;
+  --border-subtle:  rgba(26, 16, 8, 0.08);
+  --border-default: rgba(26, 16, 8, 0.15);
+  --border-strong:  rgba(192, 82, 42, 0.40);
+  --grad-hero:      linear-gradient(160deg, #FBF7F0 0%, #F4EDE1 50%, #EDE3D4 100%);
+  --grad-card:      linear-gradient(145deg, rgba(192,82,42,0.04) 0%, rgba(212,160,23,0.03) 100%);
+  --shadow-sm:      0 2px 8px rgba(26,16,8,0.08), 0 1px 3px rgba(26,16,8,0.05);
+  --shadow-md:      0 8px 24px rgba(26,16,8,0.10), 0 2px 8px rgba(26,16,8,0.06);
+  --shadow-lg:      0 20px 60px rgba(26,16,8,0.12), 0 8px 20px rgba(26,16,8,0.08);
+}
+
+/* ─── NEPALI FONT OVERRIDE ─────────────────────────────── */
+[data-lang="ne"] {
+  font-family: 'Tiro Devanagari', 'DM Sans', serif;
+}
+[data-lang="ne"] .yeseva {
+  font-family: 'Tiro Devanagari', serif;
+}
+
+/* ─── BASE RESETS ──────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: var(--text-primary);
+  background: var(--bg-page);
+  transition: background 0.3s, color 0.3s;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--terra-500);
+  color: #fff;
+}
+
+:focus-visible {
+  outline: 2px solid var(--terra-500);
+  outline-offset: 3px;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ─── SKIP LINK ────────────────────────────────────────── */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 1rem;
+  z-index: 9999;
+  background: var(--terra-500);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  transition: left 0.2s;
+}
+.skip-link:focus {
+  left: 1rem;
+}
+
+/* ─── REDUCED MOTION ───────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ─── UTILITY CLASSES ──────────────────────────────────── */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--content-pad);
+}
+
+.section {
+  padding: var(--section-pad-y) 0;
+}
+
+/* ─── SCROLLBAR ────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--ink-500);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--terra-700);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--terra-500);
+}

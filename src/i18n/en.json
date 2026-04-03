@@ -1,0 +1,418 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "gallery": "Gallery",
+    "blog": "Blog",
+    "contact": "Contact",
+    "bookCta": "Book Appointment"
+  },
+  "hero": {
+    "eyebrow": "BHAKTAPUR'S TRUSTED DENTAL CARE",
+    "line1": "Transforming",
+    "line2": "Smiles,",
+    "line3": "One Visit",
+    "line4": "at a Time.",
+    "sub": "Expert dental care in the heart of Suryabinayak, Bhaktapur. Where your comfort meets our precision.",
+    "ctaPrimary": "Book Appointment",
+    "ctaSecondary": "Call: +977 985-1075694",
+    "address": "Ga:Pali, Suryabinayak, Bhaktapur (Ward 8)",
+    "scrollLabel": "Scroll to explore"
+  },
+  "trust": {
+    "reviews": "★★★★ Reviews",
+    "followers": "218+ Followers",
+    "locations": "2 Locations",
+    "rootCanal": "Root Canal",
+    "whitening": "Teeth Whitening",
+    "implants": "Dental Implants",
+    "pediatric": "Pediatric Care",
+    "emergency": "Emergency Care"
+  },
+  "services": {
+    "sectionLabel": "WHAT WE OFFER",
+    "title": "Our Dental Services",
+    "items": {
+      "general": { "name": "General Checkup & Cleaning", "desc": "Comprehensive oral examination and professional cleaning for lasting dental health.", "price": "NPR 800+" },
+      "extraction": { "name": "Tooth Extraction", "desc": "Safe, gentle removal of problematic teeth with minimal discomfort and quick recovery.", "price": "NPR 1,200+" },
+      "fillings": { "name": "Dental Fillings", "desc": "Tooth-colored fillings that restore strength and natural appearance to damaged teeth.", "price": "NPR 1,500+" },
+      "rootCanal": { "name": "Root Canal Treatment", "desc": "Pain-free root canal therapy using modern techniques to save infected teeth.", "price": "NPR 4,500+" },
+      "whitening": { "name": "Teeth Whitening", "desc": "Professional-grade whitening for a brighter, more confident smile in one visit.", "price": "NPR 5,000+" },
+      "implants": { "name": "Dental Implants", "desc": "Permanent tooth replacement with titanium implants that look and feel natural.", "price": "NPR 25,000+" },
+      "braces": { "name": "Orthodontics / Braces", "desc": "Straighten your smile with modern braces and aligner systems for all ages.", "price": "NPR 30,000+" },
+      "pediatric": { "name": "Pediatric Dentistry", "desc": "Gentle, child-friendly dental care in a comfortable environment for young patients.", "price": "NPR 600+" }
+    },
+    "bookService": "Tap to book this service →"
+  },
+  "about": {
+    "sectionLabel": "OUR STORY",
+    "title": "Rooted in Bhaktapur,\nBuilt on Trust",
+    "body1": "Biraj Dental Hospital Pvt. Ltd. has been serving the Suryabinayak community with dedication and care. What started as a small practice has grown into Bhaktapur's trusted destination for comprehensive dental care.",
+    "body2": "Our team of experienced dental professionals combines modern techniques with genuine compassion. We believe that everyone deserves access to quality dental care — and we've made that our mission since day one.",
+    "body3": "With two convenient locations across Bhaktapur — our main clinic in Suryabinayak and our branch at Gatthaghar — we ensure expert dental care is never far from home.",
+    "locations": {
+      "main": {
+        "label": "Suryabinayak (Main)",
+        "address": "Ga:Pali, Suryabinayak Municipality, Ward 8\nBhaktapur, Bagmati Province",
+        "phone": "+977 985-1075694 | 01-6613106"
+      },
+      "branch": {
+        "label": "Gatthaghar (Branch)",
+        "address": "Gatthaghar Namuna Basti\nChandra Binayek Chowk, Bhaktapur",
+        "phone": "mainalibr@gmail.com"
+      }
+    }
+  },
+  "whyUs": {
+    "sectionLabel": "WHY CHOOSE US",
+    "title": "The Biraj Dental Difference",
+    "panels": [
+      {
+        "number": "01",
+        "title": "Two Convenient Locations",
+        "desc": "Our Suryabinayak main clinic and Gatthaghar branch ensure you're never far from expert dental care across Bhaktapur."
+      },
+      {
+        "number": "02",
+        "title": "Affordable & Transparent",
+        "desc": "Quality dental care should be accessible. We believe in clear, honest pricing with no hidden fees — ever."
+      },
+      {
+        "number": "03",
+        "title": "Modern Equipment",
+        "desc": "State-of-the-art dental tools and sterilization protocols ensure precise, comfortable, and safe treatment every time."
+      },
+      {
+        "number": "04",
+        "title": "Gentle, Patient-First Care",
+        "desc": "From anxious first-timers to young children, our team is trained to make every patient feel heard, comfortable, and cared for."
+      },
+      {
+        "number": "05",
+        "title": "Trusted by Bhaktapur",
+        "desc": "218+ Facebook followers, 4 Google reviews, and over a decade of serving Suryabinayak and Gatthaghar communities."
+      }
+    ]
+  },
+  "gallery": {
+    "sectionLabel": "OUR CLINIC",
+    "title": "Step Inside Biraj Dental"
+  },
+  "testimonials": {
+    "sectionLabel": "TESTIMONIALS",
+    "title": "What Our Patients Say",
+    "items": [
+      {
+        "quote": "Very professional and gentle. Made my child feel completely comfortable.",
+        "name": "Sunita Maharjan",
+        "location": "Suryabinayak",
+        "treatment": "Pediatric Dentistry",
+        "rating": 5
+      },
+      {
+        "quote": "Clean clinic, experienced doctors. Quick and painless extraction.",
+        "name": "Ramesh Shrestha",
+        "location": "Bhaktapur",
+        "treatment": "Tooth Extraction",
+        "rating": 5
+      },
+      {
+        "quote": "Good service. The root canal was much less scary than I expected.",
+        "name": "Priya Tamang",
+        "location": "Gatthaghar",
+        "treatment": "Root Canal Treatment",
+        "rating": 4
+      },
+      {
+        "quote": "Best dental clinic in Bhaktapur. Affordable and trustworthy.",
+        "name": "Aakash KC",
+        "location": "Suryabinayak",
+        "treatment": "General Checkup",
+        "rating": 5
+      }
+    ]
+  },
+  "team": {
+    "sectionLabel": "OUR TEAM",
+    "title": "Meet Your Dental Experts",
+    "hoverReveal": "Hover to reveal",
+    "members": [
+      {
+        "name": "Dr. Lead Dentist",
+        "specialty": "General & Cosmetic Dentistry",
+        "credentials": "BDS (NMC Registered)",
+        "bio": "Over a decade of experience in restorative and cosmetic dentistry. Passionate about creating confident smiles.",
+        "tags": ["General Dentistry", "Cosmetic", "Restorative"]
+      },
+      {
+        "name": "Dr. Orthodontist",
+        "specialty": "Braces & Aligners",
+        "credentials": "BDS, MDS Orthodontics",
+        "bio": "Specialist in orthodontic treatment for children and adults. Expert in modern aligner systems and traditional braces.",
+        "tags": ["Orthodontics", "Braces", "Aligners"]
+      },
+      {
+        "name": "Dental Hygienist",
+        "specialty": "Hygiene & Coordination",
+        "credentials": "Certified Dental Hygienist",
+        "bio": "Ensures every patient receives thorough, gentle care. Manages clinic operations and patient comfort protocols.",
+        "tags": ["Hygiene", "Patient Care", "Coordination"]
+      }
+    ]
+  },
+  "blog": {
+    "sectionLabel": "DENTAL TIPS",
+    "title": "Latest from Our Blog",
+    "readMore": "Read More →",
+    "posts": [
+      {
+        "slug": "5-signs-you-need-dental-checkup",
+        "title": "5 Signs You Need a Dental Checkup Right Away",
+        "excerpt": "Don't wait for pain to visit the dentist. These warning signs mean it's time to book an appointment.",
+        "category": "Preventive Care",
+        "date": "March 28, 2026",
+        "author": "Dr. Lead Dentist",
+        "readTime": "5 min read",
+        "content": [
+          { "type": "paragraph", "text": "Many people assume that if their teeth don't hurt, everything is fine. But dental problems often develop silently — without pain or obvious symptoms — until they reach an advanced stage. At Biraj Dental in Suryabinayak, we see patients every week who waited too long because they had no warning signs. Here are five indicators that you should book a checkup immediately."
+          },
+          { "type": "heading", "text": "1. Bleeding Gums When Brushing or Flossing"
+          },
+          { "type": "paragraph", "text": "Healthy gums should not bleed during normal brushing or flossing. If you notice pink on your toothbrush or in the sink, it is often the earliest sign of gingivitis — the first stage of gum disease. Left untreated, gingivitis can progress to periodontitis, which damages the bone supporting your teeth and can lead to tooth loss. The good news is that early-stage gum disease is completely reversible with a professional cleaning and improved home care."
+          },
+          { "type": "heading", "text": "2. Persistent Bad Breath"
+          },
+          { "type": "paragraph", "text": "Occasional bad breath after eating garlic or coffee is normal. But chronic halitosis that persists despite good oral hygiene often signals an underlying problem. It could be caused by bacteria buildup below the gum line, an untreated cavity, dry mouth, or even a sinus infection. A dental examination can identify the root cause and recommend the right treatment."
+          },
+          { "type": "heading", "text": "3. Tooth Sensitivity to Hot, Cold, or Sweet"
+          },
+          { "type": "paragraph", "text": "A brief twinge when eating ice cream is common. But sharp, lingering pain from temperature changes or sugary foods often indicates enamel erosion, a cracked tooth, or an exposed root. At our Biraj Dental clinic in Bhaktapur, we regularly treat sensitivity with fluoride varnishes, desensitizing toothpaste recommendations, or restorative fillings depending on the cause."
+          },
+          { "type": "heading", "text": "4. Visible Changes in Your Teeth or Gums"
+          },
+          { "type": "paragraph", "text": "Look for dark spots on teeth, white patches on your gums, receding gum lines, or any swelling. These visual changes can indicate decay, infection, or oral health conditions that need professional attention. Even a small chip or crack should be evaluated — what seems minor can quickly worsen."
+          },
+          { "type": "heading", "text": "5. It Has Been More Than Six Months Since Your Last Visit"
+          },
+          { "type": "paragraph", "text": "The simplest sign of all: if you cannot remember when you last saw a dentist, it is time. The Nepali Dental Council and international dental associations both recommend checkups every six months for most adults. Regular visits catch problems early when they are smaller, simpler, and far less expensive to treat."
+          },
+          { "type": "paragraph", "text": "At Biraj Dental Hospital in Suryabinayak, Bhaktapur, we offer comprehensive checkups starting from just NPR 800. Our experienced team uses modern diagnostic tools to give you a complete picture of your oral health. Call us at +977 985-1075694 or book online — your future self will thank you."
+          }
+        ]
+      },
+      {
+        "slug": "root-canal-treatment-what-to-expect",
+        "title": "Root Canal Treatment: What to Expect",
+        "excerpt": "Myths about root canals keep people from getting needed treatment. Here's the truth about the procedure.",
+        "category": "Treatment Guide",
+        "date": "March 15, 2026",
+        "author": "Dr. Lead Dentist",
+        "readTime": "7 min read",
+        "content": [
+          { "type": "paragraph", "text": "The words 'root canal' strike fear into many patients' hearts. Decades of misinformation have turned one of dentistry's most common and effective procedures into a source of unnecessary anxiety. At Biraj Dental in Bhaktapur, we want to set the record straight: a root canal treatment should not be painful. In fact, it relieves pain."
+          },
+          { "type": "heading", "text": "What Is a Root Canal?"
+          },
+          { "type": "paragraph", "text": "Inside every tooth is a soft tissue called the pulp, which contains nerves, blood vessels, and connective tissue. When this pulp becomes infected or inflamed — due to deep decay, repeated dental procedures, a crack or chip, or trauma — it can cause severe pain and lead to an abscess. A root canal treatment removes the damaged pulp, cleans and disinfects the inside of the tooth, then fills and seals it. The tooth is then restored with a filling or crown."
+          },
+          { "type": "heading", "text": "Does It Hurt?"
+          },
+          { "type": "paragraph", "text": "This is the most common question we hear. The answer: with modern local anesthesia, you should feel no pain during the procedure. Most patients describe the sensation as similar to getting a filling — pressure and vibration, but no sharp pain. The pain people associate with root canals is actually the pain of the infection itself, which the procedure resolves. After treatment, some mild soreness for a day or two is normal and easily managed with over-the-counter pain relievers."
+          },
+          { "type": "heading", "text": "The Step-by-Step Process at Biraj Dental"
+          },
+          { "type": "paragraph", "text": "First, we take a digital X-ray to see the shape of the root canals and check for signs of infection in the surrounding bone. Then we administer local anesthesia to numb the area completely. Once you are comfortable, we place a small protective sheet called a dental dam over the tooth to keep it clean and dry during the procedure."
+          },
+          { "type": "paragraph", "text": "Next, we make a small opening in the crown of the tooth and use tiny instruments to remove the infected pulp. We carefully clean, shape, and disinfect each canal — some teeth have one canal, others have two, three, or even four. After cleaning, we fill the canals with a biocompatible material called gutta-percha and seal them with adhesive cement."
+          },
+          { "type": "paragraph", "text": "Finally, because a tooth that has had a root canal is more brittle than a healthy tooth, we usually recommend placing a crown to protect it. At our Suryabinayak clinic, we can often complete the entire process in one or two visits."
+          },
+          { "type": "heading", "text": "How Much Does It Cost?"
+          },
+          { "type": "paragraph", "text": "At Biraj Dental, root canal treatment starts from NPR 4,500, depending on which tooth needs treatment — front teeth typically have fewer canals and are simpler, while molars are more complex. We always discuss the full cost with you before beginning any treatment, with no hidden fees."
+          },
+          { "type": "paragraph", "text": "If you have been putting off a root canal out of fear, we invite you to call us at +977 985-1075694. Our gentle, experienced team will make sure you are comfortable every step of the way."
+          }
+        ]
+      },
+      {
+        "slug": "keeping-childrens-teeth-healthy",
+        "title": "How to Keep Your Child's Teeth Healthy",
+        "excerpt": "Building good dental habits early sets the foundation for a lifetime of healthy smiles.",
+        "category": "Pediatric Care",
+        "date": "March 5, 2026",
+        "author": "Dr. Lead Dentist",
+        "readTime": "6 min read",
+        "content": [
+          { "type": "paragraph", "text": "A child's first dental visit sets the tone for their entire relationship with oral healthcare. At Biraj Dental's pediatric dentistry clinic in Bhaktapur, we have seen how early positive experiences create children who grow up confident about dental visits — and adults who take care of their teeth. Here is a practical guide for parents."
+          },
+          { "type": "heading", "text": "When Should Your Child First See a Dentist?"
+          },
+          { "type": "paragraph", "text": "The Nepali Dental Association recommends a child's first dental visit by their first birthday or within six months of their first tooth appearing. This early visit is not about treatment — it is about establishing a relationship, checking that teeth are developing normally, and giving parents personalized guidance on feeding, brushing, and fluoride use."
+          },
+          { "type": "heading", "text": "Brushing: Start Early, Make It Fun"
+          },
+          { "type": "paragraph", "text": "Even before teeth appear, gently wipe your baby's gums with a clean, damp cloth after feeding. Once the first tooth emerges, use a soft infant toothbrush with a smear of fluoride toothpaste no larger than a grain of rice. For children aged three to six, use a pea-sized amount. Brush twice daily — morning and before bed — and make it enjoyable by singing a song, using a timer, or brushing together as a family."
+          },
+          { "type": "heading", "text": "Foods That Help — and Harm — Young Teeth"
+          },
+          { "type": "paragraph", "text": "Children's enamel is thinner and more vulnerable to acid than adult enamel. Limit sugary snacks, fruit juices, and sticky candies that cling to teeth. Instead, offer cheese, yogurt, fresh fruits, vegetables, and plenty of water. Milk is excellent for developing teeth due to its calcium content, but avoid putting a child to bed with a bottle of milk or juice — the prolonged exposure to sugars causes early childhood caries, also known as bottle rot."
+          },
+          { "type": "heading", "text": "Thumb Sucking and Pacifier Use"
+          },
+          { "type": "paragraph", "text": "Thumb sucking and pacifier use are normal in infants and toddlers. Most children stop on their own between ages two and four. However, if the habit continues past age four, it can affect the alignment of permanent teeth and the shape of the palate. If your child is still sucking their thumb at age four or five, talk to your dentist about gentle strategies to help them stop."
+          },
+          { "type": "heading", "text": "Dental Sealants and Fluoride Treatments"
+          },
+          { "type": "paragraph", "text": "Dental sealants are thin protective coatings applied to the chewing surfaces of back teeth, where most childhood cavities occur. They are quick, painless, and can reduce the risk of decay by up to 80%. Combined with regular fluoride treatments, sealants provide powerful protection during the years when children are most cavity-prone. Ask about these preventive options at your child's next visit to Biraj Dental in Suryabinayak."
+          },
+          { "type": "paragraph", "text": "Our pediatric dentistry services at Biraj Dental start from just NPR 600. We create a warm, child-friendly environment where your little ones feel safe and comfortable. Call +977 985-1075694 to book your child's appointment today."
+          }
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "FAQ",
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Where exactly is Biraj Dental located?",
+        "a": "Our main clinic is at Ga:Pali, Suryabinayak Municipality, Ward 8, Bhaktapur. Our branch is at Gatthaghar Namuna Basti, Chandra Binayek Chowk, Bhaktapur. Both locations are easily accessible by public transport."
+      },
+      {
+        "q": "What are your opening hours for both branches?",
+        "a": "Suryabinayak (Main): Sunday–Friday 9:00 AM – 6:00 PM, Saturday 10:00 AM – 3:00 PM. Gatthaghar (Branch): Sunday–Friday 9:00 AM – 5:00 PM, Saturday 10:00 AM – 2:00 PM."
+      },
+      {
+        "q": "Do I need an appointment, or can I walk in?",
+        "a": "Walk-ins are welcome, but we recommend booking an appointment to minimize wait time. You can book online through our website or call us at +977 985-1075694."
+      },
+      {
+        "q": "Which dental services do you offer?",
+        "a": "We offer General Checkup & Cleaning, Tooth Extraction, Dental Fillings, Root Canal Treatment, Teeth Whitening, Dental Implants, Orthodontics/Braces, and Pediatric Dentistry."
+      },
+      {
+        "q": "Is root canal treatment painful at Biraj Dental?",
+        "a": "Not at all. We use modern anesthesia and techniques to ensure root canal treatment is virtually painless. Most patients report it feels similar to getting a filling."
+      },
+      {
+        "q": "How much does professional teeth whitening cost?",
+        "a": "Professional teeth whitening starts from NPR 5,000. The exact cost depends on the level of staining and the method used. We'll discuss options during your consultation."
+      },
+      {
+        "q": "Do you provide dental care for children?",
+        "a": "Yes! Our pediatric dentistry services are designed specifically for children. We create a comfortable, friendly environment that makes dental visits a positive experience for young patients."
+      },
+      {
+        "q": "Which branch should I visit for which services?",
+        "a": "Both branches offer general dentistry, fillings, extractions, and cleanings. Specialized services like root canals and implants are primarily handled at our Suryabinayak main clinic."
+      },
+      {
+        "q": "What payment methods do you accept?",
+        "a": "We accept cash and card payments at both locations. We believe in transparent pricing with no hidden fees. Payment is due at the time of service."
+      }
+    ]
+  },
+  "contact": {
+    "sectionLabel": "GET IN TOUCH",
+    "title": "Contact Us",
+    "formTitle": "Send Us a Message",
+    "nameLabel": "Your Name",
+    "emailLabel": "Email Address",
+    "phoneLabel": "Phone Number",
+    "messageLabel": "Your Message",
+    "submitBtn": "Send Message",
+    "success": "Thank you for your message! We'll get back to you soon.",
+    "mapTitle": "Biraj Dental Location"
+  },
+  "socialFeed": {
+    "sectionLabel": "FOLLOW US",
+    "title": "Join Our Community",
+    "cta": "Follow us on Facebook",
+    "ctaLink": "https://www.facebook.com/p/Biraj-Dental-PvtLtd-100063143595415/"
+  },
+  "booking": {
+    "title": "Book Appointment",
+    "step1": {
+      "title": "Your Details",
+      "nameLabel": "Full Name",
+      "emailLabel": "Email Address",
+      "phoneLabel": "Phone Number",
+      "phoneHint": "+977-9XXXXXXXXX or 01-XXXXXXX",
+      "ageLabel": "Age",
+      "ageOptional": "(Optional)",
+      "genderLabel": "Gender",
+      "male": "Male",
+      "female": "Female",
+      "other": "Other",
+      "nextBtn": "Next Step →",
+      "errors": {
+        "name": "Please enter your full name (letters only)",
+        "email": "Please enter a valid email address",
+        "phone": "Enter a valid Nepal phone number"
+      }
+    },
+    "step2": {
+      "title": "Appointment",
+      "serviceLabel": "Select Service",
+      "branchLabel": "Select Branch",
+      "dateLabel": "Select Date",
+      "timeLabel": "Select Time",
+      "notesLabel": "Notes (Optional)",
+      "morning": "Morning",
+      "afternoon": "Afternoon",
+      "evening": "Evening",
+      "taken": "Taken",
+      "branches": {
+        "suryabinayak": { "name": "Suryabinayak (Main)", "address": "Ga:Pali, Ward 8", "phone": "+977 985-1075694" },
+        "gatthaghar": { "name": "Gatthaghar Branch", "address": "Chandra Binayek Chowk" }
+      }
+    },
+    "step3": {
+      "title": "Review",
+      "summaryTitle": "Your Appointment Summary",
+      "patientSection": "Patient Details",
+      "appointmentSection": "Appointment Details",
+      "confirmLabel": "I confirm the above details are correct.",
+      "submitBtn": "Confirm Appointment",
+      "confirming": "Confirming...",
+      "fields": {
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone",
+        "age": "Age",
+        "gender": "Gender",
+        "service": "Service",
+        "branch": "Branch",
+        "date": "Date",
+        "time": "Time",
+        "notes": "Notes"
+      }
+    },
+    "success": {
+      "title": "Appointment Confirmed!",
+      "idLabel": "Booking ID:",
+      "download": "Download PDF Receipt",
+      "bookAnother": "Book Another",
+      "urgent": "For urgent care or to reschedule:",
+      "phone": "+977 985-1075694"
+    },
+    "errors": {
+      "duplicate": "An appointment already exists for this time slot. Please choose a different time or call us.",
+      "server": "Server error. Please call +977 985-1075694.",
+      "rateLimit": "Too many requests. Please wait a minute."
+    }
+  },
+  "footer": {
+    "tagline": "Transforming smiles, one visit at a time.",
+    "quickLinks": "Quick Links",
+    "ourServices": "Our Services",
+    "contactInfo": "Contact Info",
+    "hours": "Opening Hours",
+    "hoursMain": "Sun–Fri: 9:00 AM – 6:00 PM | Sat: 10:00 AM – 3:00 PM",
+    "hoursBranch": "Sun–Fri: 9:00 AM – 5:00 PM | Sat: 10:00 AM – 2:00 PM",
+    "copyright": "© 2026 Biraj Dental Hospital Pvt. Ltd. All rights reserved.",
+    "madeIn": "Made with care in Bhaktapur"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Biraj Dental",
+  "short_name": "Biraj Dental",
+  "description": "Bhaktapur's Premier Dental Clinic",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1A1008",
+  "theme_color": "#C0522A",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ]
+}
