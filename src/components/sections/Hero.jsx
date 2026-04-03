@@ -39,9 +39,10 @@ export default function Hero() {
       </div>
       <NewariPattern width="100%" height={60} className="absolute bottom-0 z-[3]" />
 
-      <div className="absolute top-1/2 left-0 -translate-y-1/2 z-[4] w-full max-w-2xl p-4 sm:p-8">
-        <p className="hero-eyebrow font-sans font-medium text-[0.65rem] sm:text-[0.7rem] tracking-[0.15em] uppercase text-terra-400 mb-3 sm:mb-4">{t('hero.eyebrow')}</p>
-        <h1 className="font-yeseva leading-[1.05] text-white mb-4 sm:mb-6" style={{ fontSize: 'clamp(2rem, 5.5vw, 4.5rem)' }}>
+      <div className="absolute inset-0 z-[4] flex items-center">
+        <div className="w-full max-w-3xl mx-auto px-[var(--content-pad)]">
+        <p className="hero-eyebrow font-sans font-medium text-[0.7rem] tracking-[0.15em] uppercase text-terra-400 mb-4">{t('hero.eyebrow')}</p>
+        <h1 className="font-yeseva leading-[1.05] text-white mb-5" style={{ fontSize: 'clamp(2.25rem, 4.5vw, 3.75rem)' }}>
           {['hero.line1','hero.line2','hero.line3','hero.line4'].map((key) => (
             <span key={key} className="hero-word block">
               {key === 'hero.line2' ? (
@@ -50,18 +51,19 @@ export default function Hero() {
             </span>
           ))}
         </h1>
-        <p className="hero-sub font-sans font-light text-[var(--text-secondary)] mb-6 sm:mb-8 max-w-lg leading-relaxed" style={{ fontSize: 'var(--fs-body-lg)' }}>{t('hero.sub')}</p>
-        <div className="hero-cta flex flex-col sm:flex-row items-start gap-3 sm:gap-4 mb-4 sm:mb-6">
+        <p className="hero-sub font-sans font-light text-[var(--text-secondary)] mb-7 max-w-xl leading-relaxed" style={{ fontSize: 'var(--fs-body-lg)' }}>{t('hero.sub')}</p>
+        <div className="hero-cta flex flex-col sm:flex-row items-start gap-4 mb-6">
           <div className="relative inline-flex">
             <PulseRings />
             <Button variant="primary" magnetic onClick={() => openPanel(null, document.activeElement)}>{t('hero.ctaPrimary')} →</Button>
           </div>
-          <a href="tel:+9779851075694" className="inline-flex items-center gap-2 font-sans font-medium text-terra-400 border border-terra-500/50 rounded-full px-5 sm:px-7 py-3 sm:py-4 hover:border-terra-500 hover:bg-terra-500/[0.08] transition-all">
+          <a href="tel:+9779851075694" className="inline-flex items-center gap-2 font-sans font-medium text-terra-400 border border-terra-500/50 rounded-full px-6 py-3.5 hover:border-terra-500 hover:bg-terra-500/[0.08] transition-all">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339,1.85.573,2.81.7A2 2 0 0 1 22 16.92z"/></svg>
             {t('hero.ctaSecondary')}
           </a>
         </div>
-        <p className="hero-location font-sans text-xs sm:text-sm text-[var(--text-muted)]">📍 {t('hero.address')}</p>
+        <p className="hero-location font-sans text-sm text-[var(--text-muted)]">📍 {t('hero.address')}</p>
+        </div>
       </div>
 
       <div className="hidden md:flex absolute bottom-8 left-1/2 -translate-x-1/2 z-[5] flex-col items-center gap-2 text-terra-400/60 animate-bounce">
