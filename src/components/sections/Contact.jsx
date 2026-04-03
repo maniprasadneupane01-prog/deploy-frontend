@@ -23,14 +23,17 @@ export default function Contact() {
       console.error('Contact form error:', err);
       let msg = 'Failed to send message. Please try again or call us directly.';
       if (err.response) {
-        if (err.response.status === 400 && err.response.data?.details) {
-          const details = err.response.data.details;
-          msg = Object.values(details).join('. ');
+        if (err.response.data?.details) {
+          msg = Object.values(err.response.data.details).join('. ');
         } else if (err.response.data?.message) {
           msg = err.response.data.message;
+        } else {
+          msg = `Server error (${err.response.status}). Please try again.`;
         }
       } else if (err.request) {
-        msg = 'Could not connect to server. Please check your connection.';
+        msg = 'Could not connect to server. The server may be starting up — please wait 30 seconds and try again.';
+      } else {
+        msg = err.message || msg;
       }
       setError(msg);
     } finally {
