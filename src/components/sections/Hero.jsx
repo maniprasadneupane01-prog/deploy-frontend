@@ -41,7 +41,7 @@ export default function Hero() {
 
       <div className="absolute top-1/2 left-0 -translate-y-1/2 z-[4] w-full max-w-2xl p-4 sm:p-8">
         <p className="hero-eyebrow font-sans font-medium text-[0.65rem] sm:text-[0.7rem] tracking-[0.15em] uppercase text-terra-400 mb-3 sm:mb-4">{t('hero.eyebrow')}</p>
-        <h1 className="font-yeseva leading-[1.0] text-white mb-4 sm:mb-6" style={{ fontSize: 'var(--fs-display)' }}>
+        <h1 className="font-yeseva leading-[1.05] text-white mb-4 sm:mb-6" style={{ fontSize: 'clamp(2rem, 5.5vw, 4.5rem)' }}>
           {['hero.line1','hero.line2','hero.line3','hero.line4'].map((key) => (
             <span key={key} className="hero-word block">
               {key === 'hero.line2' ? (
