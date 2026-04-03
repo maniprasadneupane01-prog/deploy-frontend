@@ -42,7 +42,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-[4] flex items-center">
         <div className="w-full max-w-3xl mx-auto px-[var(--content-pad)]">
           <p className="hero-eyebrow font-sans font-medium text-[0.7rem] tracking-[0.15em] uppercase text-terra-400 mb-4">{t('hero.eyebrow')}</p>
-          <h1 className="font-yeseva leading-[1.05] text-white mb-5" style={{ fontSize: 'clamp(2.25rem, 4.5vw, 3.75rem)' }}>
+          <h1 className="font-yeseva leading-[1.05] text-white mb-5" style={{ fontSize: 'clamp(1.75rem, 3vw, 2.75rem)' }}>
             {['hero.line1','hero.line2','hero.line3','hero.line4'].map((key) => (
               <span key={key} className="hero-word block">
                 {key === 'hero.line2' ? (
@@ -51,7 +51,7 @@ export default function Hero() {
               </span>
             ))}
           </h1>
-          <p className="hero-sub font-sans font-light text-[var(--text-secondary)] mb-7 max-w-xl leading-relaxed" style={{ fontSize: 'var(--fs-body-lg)' }}>{t('hero.sub')}</p>
+          <p className="hero-sub font-sans font-light text-[var(--text-secondary)] mb-7 max-w-xl leading-relaxed" style={{ fontSize: 'clamp(0.9rem, 1.2vw, 1.05rem)' }}>{t('hero.sub')}</p>
           <div className="hero-cta flex flex-col sm:flex-row items-start gap-4 mb-6">
             <div className="relative inline-flex">
               <PulseRings />
